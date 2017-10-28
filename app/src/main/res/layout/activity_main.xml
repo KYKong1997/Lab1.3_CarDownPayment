@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="my.edu.tarc.lab13_cardownpayment.MainActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:baselineAligned="false"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/vehiclePriceText"
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Vehicle Price"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/downPaymentText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Downpayment"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/interestRateText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Interest Rate"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/repaymentText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Re-payment"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/salaryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Salary"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:text="TextView" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
